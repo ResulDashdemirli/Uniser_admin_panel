@@ -175,4 +175,8 @@ a{
     .istifadeci_sayi {
         display: none;
     }
+    .ad_soyad_together {
+        display: flex;
+        flex-direction:row;
+    }
 }
