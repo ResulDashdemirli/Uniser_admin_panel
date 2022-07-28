@@ -176,14 +176,9 @@ a{
     }
     .topbar , .topbar2 {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
-    .topbar2 {
-        align-content: space-between;
-    }
-    
     .ad_soyad {
-        margin-top: 25px;
-        margin-right: 35px;
+        display: none;
     }
 }

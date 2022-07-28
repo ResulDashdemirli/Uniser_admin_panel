@@ -175,8 +175,11 @@ a{
     .istifadeci_sayi {
         display: none;
     }
-    .ad_soyad_together {
+    .topbar , .topbar2 {
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
+    }
+    .ad_soyad {
+        display: none;
     }
 }
