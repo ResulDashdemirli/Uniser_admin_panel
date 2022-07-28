@@ -30,7 +30,6 @@ a{
 
 .first_box {
     margin-top: 25px;
-    background:  rgba(255, 255, 255, 0.1);
 }
 .fa-solid {
     color: #2F89B6;
@@ -46,6 +45,9 @@ a{
     height: 33px;
     width: 258px;
     border-radius: 7px;   
+}
+.highlited_box {
+    background:  rgba(255, 255, 255, 0.1);   
 }
 
 /*                       dashboard ends               */
@@ -160,7 +162,4 @@ a{
     height: 100%;
     object-fit: cover;
 } 
-/* .user_down {
-    position: absolute;
-    margin-right: 20px;
-} */
+/* top_bar ends */
