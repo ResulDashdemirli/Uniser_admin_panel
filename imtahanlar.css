@@ -163,3 +163,15 @@ a{
     object-fit: cover;
 } 
 /* top_bar ends */
+
+
+/* responsivity starts */
+
+@media screen and (max-width: 900px) {
+    .search {
+        display: none;
+    }
+    .istifadeci_sayi {
+        display: none;
+    }
+}

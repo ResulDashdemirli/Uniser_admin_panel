@@ -164,3 +164,15 @@ a{
     position: absolute;
     margin-right: 20px;
 } */
+
+
+/* responsivity starts */
+
+@media screen and (max-width: 900px) {
+    .search {
+        display: none;
+    }
+    .istifadeci_sayi {
+        display: none;
+    }
+}
