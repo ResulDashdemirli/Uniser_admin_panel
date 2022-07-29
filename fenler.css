@@ -104,7 +104,7 @@ a{
 .istifadeci_sayi{
     margin-left: 20px;
 }
-.search{
+.search1{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -209,9 +209,16 @@ background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
     margin-right: 25px;
     margin-top: 10px;
   }
-  .duration{
-    margin-left: -120px;
+  .date1 {
+    margin-right: 80px;
   }
+  .duration1 {
+    margin-right: 70px;
+  }
+  .duration{
+    margin-left: -40px;
+  }
+
   .emeliyyatlar:hover{
     color:#2F89B6;
     background: white;
@@ -226,6 +233,12 @@ background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
     color: #2F89B6;;
     width: 920px;
     margin-left: 40px;
+  }
+  .search_icon {
+    position: relative;
+    width: 20px;
+    height: 25px;
+    margin-top: 15px;
   }
 
   .imtahan_melumat , .imtahan_melumat1{
@@ -245,14 +258,30 @@ background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
   .imtahan_melumat1 {
     margin-top: 0px;
   }
-  .date {
-    margin-right: 70px;
+  .search2{
+    margin-left: 10px;
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 211px;
+    height: 40px;
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #C6E2EB;
+    border-radius: 24px;
   }
-
+.fenn_search { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 240px;
+}
 /* responsivity starts */
 
 @media screen and (max-width: 900px) {
-    .search {
+    .search1 , .search2 {
         display: none;
     }
     .istifadeci_sayi {
