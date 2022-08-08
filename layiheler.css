@@ -247,20 +247,132 @@ background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
     height: 100px;
 }
 
-/* responsivity starts */
+  /* user dropdown starts */
+  .user
+  {
+      margin-right: 15px;
+      position:relative;
+      min-width: 50px;
+      width: 50px;
+      height: 50px;
+    
+  }
+  
+  
+  .action 
+  {
+      position: absolute;
+      top:20px;
+      right: 30px;   
+  }
+  
+  .action .profile img {
+      position: relative;
+      object-fit: cover;
+  }
+  .menu{
+      margin-top: -30px;
+  }
+  .action .menu::before {
+      content: '';
+      position: absolute;
+      top: -5px;
+      right: 28px;
+      width: 20px;
+      height: 20px;
+      background: #fff;
+      transform :rotate(45deg);
+  }
+  .action .menu ul li {
+      list-style: none;
+      padding: 10px 0;
+      border-top: 1px solid rgba(0,0,0,0.05);
+      display:flex;
+      align-items: center;
+  }
+  .action .menu ul li img {
+      max-width: 20px;
+      margin-right: 10px;
+      opacity: 0.5;
+      transition: 0.5s;
+  }
+  .action .menu ul li:hover img {
+      opacity: 1;
+  }
+  .action .menu ul li a {
+      display: inline-block;
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+      transition: 0.5s;
+  }
+  .action .menu ul li:hover a {
+      color: #ff5d94;
+  }
+  .action .menu {
+      position: absolute;
+      top: 80px;
+      right: -10px;
+      padding: 10px 20px;
+      background: #fff;
+      width: 200px;
+      box-sizing: 0 5px 25px rgba(0,0,0,0.1);
+      display: none;
+  }
+  .action .menu.active {
+      top: 80px;
+      visibility: visible;
+      display: flex;
+  }
+  .profile1 {
+      cursor: pointer;
+      margin-top: -15px;
+      width: 50px;
+      height: 50px;
+  }
+  .ad_soyad {
+    margin-right: 150px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  /* user dropdown ends */
+  
+  /* responsivity starts */
+  
+  @media screen and (max-width: 900px) {
+      .search {
+          display: none;
+      }
+      .istifadeci_sayi {
+          display: none;
+      }
+      .topbar , .topbar2 {
+          display: flex;
+          flex-direction: row;
+      }
+      .ad_soyad {
+          display: none;
+      }
+      .language {
+          display: none;
+      }
+      .main {
+          width: 180%;
+      }
+      .basliq_text {
+        width: 70%;
+      }
+      .xeber_text {
+        width: 70%;
+      }
+      .main_dashboard {
+          height: 38.4%;
+      }
 
-@media screen and (max-width: 900px) {
-    .search {
-        display: none;
-    }
-    .istifadeci_sayi {
-        display: none;
-    }
-    .topbar , .topbar2 {
-        display: flex;
-        flex-direction: row;
-    }
-    .ad_soyad {
-        display: none;
-    }
-}
+      .imtahanlarimiz_container {
+        width: 50%;
+        height: fit-content;
+      }
+  }
