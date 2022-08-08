@@ -363,4 +363,7 @@ background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
     .main {
         width: 280%;
     }
+    .main_dashboard {
+        height: 29%;
+    }
 }
