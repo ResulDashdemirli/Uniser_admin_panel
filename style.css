@@ -263,7 +263,11 @@ a{
     .ad_soyad {
         display: none;
     }
+    
     .language {
         display: none;
+    }
+    .main {
+        width: 130%;
     }
 }
