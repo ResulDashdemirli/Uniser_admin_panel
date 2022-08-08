@@ -7,7 +7,7 @@
     <title>Admin Panel</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" type="text/css" href="./imtahanlar.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <script src="./index.js" defer></script>
 </head>
 <body>
@@ -93,9 +93,17 @@
               
                 <div class="language">AZ <i class="fa-solid fa-angle-down angle-down"></i></div>
                 <div class="ad_soyad">Ad Soyad</div>
-                <div class="user">
-                    <img src="./img/user.png" alt="">   
-                </div>
+                <div class="action">
+                    <div class="profile"  onclick="menuToggle();">    <img src="./img/user.png"  class="profile1" alt=""> </div>
+                        <div class="menu">
+                            <ul>
+                                <li><img src="./img/profil_hesabi.png" class="drop_img" alt=""><a href="#"> Profil hesabı </a></li>
+                                <li><img src="./img/ana_sehife.png" class="drop_img" alt=""> <a href="#"> Ana səhifə </a></li>
+                                <li><img src="./img/cix.png" class="drop_img" alt=""> <a href="#">Çıx </a></li>
+                            </ul>
+                        </div>
+                    </div>   
+
                 </div>
            
             </div>

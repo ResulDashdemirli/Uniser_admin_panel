@@ -209,12 +209,12 @@ background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
     margin-right: 25px;
     margin-top: 10px;
   }
-  .duration{
-    margin-left: -120px;
-  }
   .emeliyyatlar:hover{
     color:#2F89B6;
     background: white;
+  }
+  .duration{
+    margin-left: -120px;
   }
   .emeliyyatlar:hover .emeliyyatlar_i{
     color: #2F89B6;
